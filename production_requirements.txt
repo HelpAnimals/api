@@ -1,0 +1,8 @@
+django
+djangorestframework
+
+#database
+psycopg2
+
+#authentication and authorization
+django-rest-framework-social-oauth2

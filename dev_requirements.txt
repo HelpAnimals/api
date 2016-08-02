@@ -1,0 +1,19 @@
+django
+djangorestframework
+
+#database
+psycopg2
+
+#testing
+django-webtest
+coverage
+django-discover-runner
+factory_boy
+model_mommy
+mock
+
+#authentication and authorization
+django-rest-framework-social-oauth2
+
+#development
+django-extensions
