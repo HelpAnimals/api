@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from rest_framework import routers
+from animals import views
+
+router = routers.DefaultRouter()
+router.register(r'animals', views.AnimalViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^auth/', include('rest_framework_social_oauth2.urls')),
+    url(r'^', include(router.urls)),
 ]
