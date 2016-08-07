@@ -5,6 +5,3 @@ django-discover-runner
 factory_boy
 model_mommy
 mock
-
-#development
-django-extensions
